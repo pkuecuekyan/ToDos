@@ -9,7 +9,7 @@ ToDos — an app to keep track of your to-dos. Allows you to import, add, check 
 * SwiftData, for state management and persistence.
 
 ## Components
-* `TodoView` as the main view, with `ListView` to display tasks
+* `TodoView` as the main view, with `ListView` to display tasks. Views are fully accessible, to allow all users to take advantage of the app and to allow for UI testing.
 * `TodoWriter` for all CRUD operations
 * `TodoImporter` to manage remote fetches.
 
