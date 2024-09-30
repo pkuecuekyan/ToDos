@@ -1,6 +1,8 @@
 # ToDos
 ToDos — an app to keep track of your to-dos. Allows you to import, add, check off, and delete the tasks you need to complete — easy to glance and filter.
 
+![](https://github.com/pkuecuekyan/ToDos/blob/main/ToDosRecording.gif)
+
 ## Technologies used
 * SwiftUI and reactive programming
 * Combine for fetching and processing
