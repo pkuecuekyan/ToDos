@@ -34,6 +34,9 @@ struct TodoView: View {
                     .accessibilityIdentifier("toDoEditButton")
             })
         }
+        .navigationViewStyle(
+            .stack
+        )
         .onAppear {
             if shouldImportContent {
                 importer.importToDos(
